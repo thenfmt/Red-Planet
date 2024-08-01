@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 302dd1f1d30651242818363a85212765
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 7913148959272423058
+    second: rig_item_pistol|fire
+  - first:
+      74: -4095558820115666686
+    second: rig_item_pistol|idle
+  - first:
+      74: -8284674699238723806
+    second: rig_item_pistol|reload
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_pistol
+    second: {fileID: 2100000, guid: 4182d00b16a3e9649b43177800abfa09, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: pistol(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rig_item_pistol
+      parentName: pistol(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: item
+      parentName: rig_item_pistol
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.3399188, y: 0.003707271, z: -0.067604005, w: 0.9380145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ScopePoint
+      parentName: item
+      position: {x: -0.000000056239692, y: 0.124397665, z: -0.23588637}
+      rotation: {x: -0.7071068, y: 0.0000000842937, z: 0.00000008429372, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: reloader
+      parentName: item
+      position: {x: -0.000000020486581, y: 0.09589815, z: -0.08592695}
+      rotation: {x: -0.24238509, y: -0.0070868423, z: 0.0070869653, w: 0.97012836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: reloader_end
+      parentName: reloader
+      position: {x: -0, y: 0.17017531, z: 0}
+      rotation: {x: 0.82810855, y: 0.0556294, z: 0.015744098, w: -0.55757856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: magazine
+      parentName: rig_item_pistol
+      position: {x: -3.0117596e-18, y: -0.17012732, z: 0.01356376}
+      rotation: {x: 0.4005097, y: 0.5827452, z: 0.40050963, w: 0.5827453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: magazine_end
+      parentName: magazine
+      position: {x: -0, y: 0.256788, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mesh_pistol
+      parentName: pistol(Clone)
+      position: {x: 2.7936298e-18, y: 0.11063586, z: -0.061301745}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mesh_pistol_bulletHusk
+      parentName: pistol(Clone)
+      position: {x: 0.09912343, y: 0.1055796, z: 0.10627698}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
