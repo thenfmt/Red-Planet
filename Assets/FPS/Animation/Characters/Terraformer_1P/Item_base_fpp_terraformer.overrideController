@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Item_base_fpp_terraformer
+  m_Controller: {fileID: 9100000, guid: 4b258c0a874eede498bd81ab4c0fb923, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 2795282549060245147, guid: 37d8bcb1d15434c4eba38cb8afc63d79,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 279e8ba7efce6664d9203b2b4f3d7347, type: 3}
+  - m_OriginalClip: {fileID: -8081281003857024446, guid: 37d8bcb1d15434c4eba38cb8afc63d79,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 2e320984d5607d442a763813a93f5a1c, type: 3}
+  - m_OriginalClip: {fileID: -4472638862948899195, guid: 37d8bcb1d15434c4eba38cb8afc63d79,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: cb3b7d53ccbf73d4c872e1d95b61c7ec, type: 3}
+  - m_OriginalClip: {fileID: -1920036328664193423, guid: 1fbb035743d8154409665580b214023e,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 9ae09226c47b868428dd85a29b58c92e, type: 3}
+  - m_OriginalClip: {fileID: 7957186802328671997, guid: 37d8bcb1d15434c4eba38cb8afc63d79,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: bcd4edbf3936bbb40a7f7c4f0b7aa7de, type: 3}
+  - m_OriginalClip: {fileID: 1379975364478412816, guid: 37d8bcb1d15434c4eba38cb8afc63d79,
+      type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: a9cd589f7b0f3204ea21dc25dda0b70d, type: 3}
